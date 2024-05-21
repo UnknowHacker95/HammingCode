@@ -109,7 +109,7 @@ private:
         Matrix<Fp<p>> Eh = A.eye(m);
         Matrix<Fp<p>> Eg = A.eye(k);
         H = A.horizontal_concatenate(Eh);
-        G = Eg.horizontal_concatenate(At);
+        G = Eg.horizontal_concatenate(-At);
     }
 
 public:
