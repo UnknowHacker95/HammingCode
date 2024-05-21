@@ -68,9 +68,9 @@ private:
             if (temp[i].val() != col[i].val() * otnosh.val()){
                 return false; 
             }
-				//проверяем, что если значение в одном столбике равно 0,
+	//проверяем, что если значение в одном столбике равно 0,
             // а в другом нет, то не кратны
-	   if (temp[i].val() == 0 || col[i].val() == 0){
+	    if (temp[i].val() == 0 || col[i].val() == 0){
                 return false;
             }
         }
